@@ -7,6 +7,8 @@ body, html {
 .topnav {
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    width: 100%;
 }
 #logo {
     font-family: Helvetica;
@@ -145,6 +147,39 @@ footer {
     justify-content: center;
     align-items: center;
     font-size: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+
+/* Signin and signup styles */
+.accounts-body {
+    margin: 0;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    color: white;
+    background: url("../img/main5.jpg") no-repeat center center;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-between;
+} 
+.accounts-footer {
+    display: flex;
+    width: 100%;
+    color: #333;
+    border-top: 1px solid #fca401;
+    height: 70px;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
