@@ -1,0 +1,96 @@
+html {
+    margin: 0;
+    height: 100%;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: inherit;
+}
+.accounts-body {
+    margin: 0;
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    color: white;
+    background: url("../img/main5.jpg") no-repeat center center;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-between;
+} 
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+
+    /* background-color: #f4a91e */
+    
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px 35px 35px;
+    border: 2px solid #fca401;;;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+.form-container h1 {
+    color: #292205;
+    border-bottom: 1px solid #f4cd1e;
+}
+.form-container button{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=email], input[type=password], input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.accounts-btn {
+    background-color: #f4a91e;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 15px;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accounts-btn:hover {
+    background-color: #fca401;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.accounts-footer {
+    display: flex;
+    width: 100%;
+    color: #333;
+    border-top: 1px solid #fca401;
+    background: rgba(0, 0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
